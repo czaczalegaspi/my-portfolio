@@ -1,0 +1,68 @@
+@media (max-width: 600px) {
+  body {
+    font-size: 14px; 
+    background-color: lightcoral;
+  }
+  .topnav {
+    font-size: 1px;
+  }
+
+}
+
+
+.topnav {
+  overflow: hidden;
+  background-color: darkred;
+}
+
+.topnav a {
+  float:left;
+  text-align: center;
+  padding: 14px 16px;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: rgb(113, 182, 113);
+  color: black;
+}
+
+
+h1 {
+text-align: center;
+font-family:Arial, Helvetica, sans-serif;
+color: darkred;
+}
+
+p {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+    color:darkred;
+text-shadow: 2px 0 #fff, -2px 0 #fff, 0 2px #fff, 0 -2px #fff,
+               1px 1px #fff, -1px -1px #fff, 1px -1px #fff, -1px 1px #fff;
+}
+
+body {
+    background-color: lightcoral;
+}
+
+
+.mart {
+    text-align:center;
+}
+
+.fart {
+    display: grid;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+border: 5px solid transparent;
+padding:20%;
+      background-image: url(tablebg.png); 
+      background-repeat: no-repeat;
+      background-position:center;
+      background-size:contain; 
+}
+
+a:link {
+  color: green;
+}
